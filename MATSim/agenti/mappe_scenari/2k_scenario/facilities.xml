@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facilities SYSTEM "http://www.matsim.org/files/dtd/facilities_v1.dtd">
+
+<facilities>
+	<facility id="10289044201" x="10.9339471" y="44.6555263">
+		<activity type="cafe">
+		</activity>
+	</facility>
+	<facility id="10289047254" x="10.9310689" y="44.658225">
+		<activity type="bicycle_parking">
+		</activity>
+	</facility>
+	<facility id="167121828" x="10.9353627" y="44.6550744">
+		<activity type="bank">
+		</activity>
+	</facility>
+	<facility id="167278783" x="10.9379" y="44.6560176">
+		<activity type="place_of_worship">
+		</activity>
+	</facility>
+	<facility id="167278988" x="10.9399932" y="44.6597645">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="1755033773" x="10.9343372" y="44.655332">
+		<activity type="bicycle_parking">
+		</activity>
+	</facility>
+	<facility id="193672368" x="10.9481917" y="44.6556869">
+		<activity type="car interaction">			<capacity value="20.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">167132024;193672363;193672368</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672369" x="10.948902" y="44.6558899">
+		<activity type="car interaction">			<capacity value="45.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">33787873;193672345;193672346;193672357;193672369;1031019666</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672373" x="10.9473415" y="44.6573183">
+		<activity type="car interaction">			<capacity value="19.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">193672350;193672353;193672354;193672373</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672377" x="10.9485832" y="44.6578526">
+		<activity type="car interaction">			<capacity value="36.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">32056861;193672377</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672379" x="10.948351" y="44.6573203">
+		<activity type="car interaction">			<capacity value="33.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">32056860;193672379</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672380" x="10.9475955" y="44.658006">
+		<activity type="car interaction">			<capacity value="13.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">193672380</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672381" x="10.9404932" y="44.6557125">
+		<activity type="car interaction">			<capacity value="34.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">32049284;32049422;193672344;193672347;193672362;193672381;490523256</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672384" x="10.94775" y="44.6593847">
+		<activity type="car interaction">			<capacity value="17.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">193672378;193672384</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672385" x="10.9463353" y="44.6568204">
+		<activity type="car interaction">			<capacity value="41.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">33787714;130070478;193672385</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672387" x="10.9479695" y="44.6563931">
+		<activity type="car interaction">			<capacity value="31.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">193672360;193672387</attribute>
+		</attributes>
+	</facility>
+	<facility id="193672389" x="10.9499021" y="44.6564672">
+		<activity type="car interaction">			<capacity value="43.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">32056851;33787916;33787917;193672389;454086617</attribute>
+		</attributes>
+	</facility>
+	<facility id="2013474816" x="10.9293872" y="44.655704">
+		<activity type="bicycle_rental">
+		</activity>
+	</facility>
+	<facility id="2090827902" x="10.9491026" y="44.6559896">
+		<activity type="cafe">
+		</activity>
+	</facility>
+	<facility id="2288109290" x="10.9370108" y="44.6658295">
+		<activity type="cafe">
+		</activity>
+	</facility>
+	<facility id="2401540733" x="10.9298882" y="44.6563763">
+		<activity type="charging_station">
+		</activity>
+	</facility>
+	<facility id="306563388" x="10.9348712" y="44.655023">
+		<activity type="car interaction">			<capacity value="14.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">306563388;622683998</attribute>
+		</attributes>
+	</facility>
+	<facility id="32875046" x="10.9286414" y="44.6559109">
+		<activity type="car interaction">			<capacity value="66.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">32875046;32875134;190655401;190655417;365182715;397924980;690163986;691042241</attribute>
+		</attributes>
+	</facility>
+	<facility id="3410716173" x="10.9323724" y="44.6574404">
+		<activity type="social_facility">
+		</activity>
+	</facility>
+	<facility id="3410716174" x="10.9319821" y="44.6576235">
+		<activity type="library">
+		</activity>
+	</facility>
+	<facility id="35978070" x="10.9302788" y="44.6575675">
+		<activity type="car interaction">			<capacity value="58.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">35978058;35978060;35978064;35978065;35978068;35978069;35978070;193166684;209730256;473994205;976186501;976186502</attribute>
+		</attributes>
+	</facility>
+	<facility id="36239004" x="10.9332807" y="44.6628058">
+		<activity type="car interaction">			<capacity value="82.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">32056762;36239001;36239002;36239003;36239004;209730243;664864412</attribute>
+		</attributes>
+	</facility>
+	<facility id="3857713774" x="10.9337916" y="44.6552746">
+		<activity type="post_office">
+		</activity>
+	</facility>
+	<facility id="4402920547" x="10.9314327" y="44.6579797">
+		<activity type="school">
+		</activity>
+	</facility>
+	<facility id="442620520" x="10.9451203" y="44.659486">
+		<activity type="school">
+		</activity>
+	</facility>
+	<facility id="4692363715" x="10.9401905" y="44.657459">
+		<activity type="toilets">
+		</activity>
+	</facility>
+	<facility id="4692365473" x="10.9402009" y="44.6575661">
+		<activity type="cafe">
+		</activity>
+	</facility>
+	<facility id="4712481508" x="10.9488882" y="44.6560836">
+		<activity type="bank">
+		</activity>
+	</facility>
+	<facility id="4712488587" x="10.937015" y="44.6597065">
+		<activity type="cafe">
+		</activity>
+	</facility>
+	<facility id="4712488731" x="10.934872" y="44.6574653">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="4712504560" x="10.9366474" y="44.6575621">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="4712504690" x="10.9365184" y="44.6569153">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="4712504740" x="10.9352052" y="44.6561094">
+		<activity type="pharmacy">
+		</activity>
+	</facility>
+	<facility id="4712531966" x="10.9327511" y="44.6570241">
+		<activity type="bank">
+		</activity>
+	</facility>
+	<facility id="4712535821" x="10.9360867" y="44.6556893">
+		<activity type="cafe">
+		</activity>
+	</facility>
+	<facility id="4712544542" x="10.9353436" y="44.6553419">
+		<activity type="fast_food">
+		</activity>
+	</facility>
+	<facility id="473994209" x="10.9340796" y="44.6562164">
+		<activity type="fuel">
+		</activity>
+	</facility>
+	<facility id="473994210" x="10.9346041" y="44.6558866">
+		<activity type="car interaction">			<capacity value="56.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">457970267;473994207;473994208;473994209;473994210</attribute>
+		</attributes>
+	</facility>
+	<facility id="486372123" x="10.932085" y="44.6574179">
+		<activity type="car interaction">			<capacity value="30.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">323342967;323342969;323342970;486372123</attribute>
+		</attributes>
+	</facility>
+	<facility id="486372137" x="10.9314417" y="44.6586391">
+		<activity type="car interaction">			<capacity value="36.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">442620518;486372125;486372137;964314867</attribute>
+		</attributes>
+	</facility>
+	<facility id="6223218986" x="10.93005" y="44.6658697">
+		<activity type="bench">
+		</activity>
+	</facility>
+	<facility id="664864405" x="10.9347619" y="44.6657626">
+		<activity type="car interaction">			<capacity value="32.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">36239007;664864405;664864412</attribute>
+		</attributes>
+	</facility>
+	<facility id="664864406" x="10.9335117" y="44.666378">
+		<activity type="car interaction">			<capacity value="35.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">36239007;664864406;664864412</attribute>
+		</attributes>
+	</facility>
+	<facility id="6914838299" x="10.929949" y="44.6583141">
+		<activity type="pharmacy">
+		</activity>
+	</facility>
+	<facility id="6914838302" x="10.930236" y="44.6584381">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="7913219454" x="10.9293123" y="44.6560196">
+		<activity type="charging_station">
+		</activity>
+	</facility>
+	<facility id="7913219456" x="10.9485742" y="44.656047">
+		<activity type="charging_station">
+		</activity>
+	</facility>
+	<facility id="7913248919" x="10.9482486" y="44.6591296">
+		<activity type="drinking_water">
+		</activity>
+	</facility>
+	<facility id="7942258906" x="10.9485386" y="44.6552784">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="820412643" x="10.9516429" y="44.658435">
+		<activity type="car interaction">			<capacity value="17.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">820412643;848034633</attribute>
+		</attributes>
+	</facility>
+	<facility id="820412644" x="10.9513581" y="44.6580753">
+		<activity type="car interaction">			<capacity value="14.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">820412644;906074992</attribute>
+		</attributes>
+	</facility>
+	<facility id="850164185" x="10.9299229" y="44.6562084">
+		<activity type="clinic">
+		</activity>
+	</facility>
+	<facility id="8543787975" x="10.936647" y="44.6575281">
+		<activity type="restaurant">
+		</activity>
+	</facility>
+	<facility id="8579683014" x="10.9339225" y="44.6554995">
+		<activity type="vending_machine">
+		</activity>
+	</facility>
+	<facility id="8638167218" x="10.9316655" y="44.6615883">
+		<activity type="drinking_water">
+		</activity>
+	</facility>
+	<facility id="982017349" x="10.9371407" y="44.6655565">
+		<activity type="car interaction">			<capacity value="206.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">167278432;167278513;167278655;982017345;982017346;982017347;982017348;982017349</attribute>
+		</attributes>
+	</facility>
+	<facility id="983835057" x="10.9381352" y="44.6666297">
+		<activity type="car interaction">			<capacity value="134.0" />
+
+		</activity>
+		<attributes>
+			<attribute name="links" class="java.lang.String">150186969;151465767;151465769;219669897;219974972;983835053;983835054;983835057;984827392</attribute>
+		</attributes>
+	</facility>
+	<facility id="984538299" x="10.9497024" y="44.6562038">
+		<activity type="pharmacy">
+		</activity>
+	</facility>
+</facilities>

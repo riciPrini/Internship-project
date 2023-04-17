@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signalGroups xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/signalGroups_v2.0.xsd" xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <signalSystem refId="255396514">
+        <signalGroup id="126">
+            <signal refId="126"/>
+        </signalGroup>
+        <signalGroup id="425">
+            <signal refId="425"/>
+        </signalGroup>
+        <signalGroup id="436">
+            <signal refId="436"/>
+        </signalGroup>
+        <signalGroup id="790">
+            <signal refId="790"/>
+        </signalGroup>
+    </signalSystem>
+</signalGroups>

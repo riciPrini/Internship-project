@@ -1,0 +1,92 @@
+Questo documento ha lo scopo di rendere più semplice l'utilizzo di questo software.
+Per i dettagli implementativi riferirsi alla tesi di laurea 
+"Simulazione multi agente di traffico urbano in ottica smart city" e
+al codice sorgente.
+
+Per l'importazione del progetto e la possibilità di modificarlo utilizzare 
+il file pom.xml per importarlo come progetto Maven.
+
+-----------------------------------------------------------------------------------
+
+CREAZIONE MAPPA
+
+Per creare una mappa utilizzare il file OpenStreetMap (osm) relativo all'area di
+interesse.
+Per ritagliare la mappa relativamente a un certa zona utilizzare la classe:
+org.matsim.contrib.smartcity.scenariocreation.RestrictArea
+
+es:
+
+java org.matsim.contrib.smartcity.scenariocreation.RestrictArea mappa.osm nomeArea
+
+dove mappa.osm è la mappa osm, nomeArea è il nome dell'area da ritagliare.
+il comando produrrà un file polygon (polygon.txt) con le coordinare della sotto-area.
+
+Utilizzare tale file con il programma "Osmosiss":
+
+./bin/osmosis --read-xml file=modena_nord.osm --bounding-polygon file="polygon.txt" completeWays=true --write-xml file="masaComWay.osm"
+
+questo genera il file osm con la sola area specificata.
+
+-------------------------------------------------------------------------------------
+
+CREAZIONE SCENARIO
+
+utilizzare la classe org.matsim.contrib.smartcity.scenariocreation.ScenarioFromOsm
+
+java org.matsim.contrib.smartcity.scenariocreation.ScenarioFromOsm file.osm signalClass outputDir
+
+dove file.osm è la mappa che si desidera convertire in scenario MATSim, signalClass è l'eventuale classe
+che verrà associata ai controllori dei semafori, outputDir è la cartella dove verrà salvato lo scenario.
+
+Nella cartella creata è presente un file config.xml; in tale file è possibile specificare i seguenti
+paramentri:
+
+Modulo comunication
+range -> raggio di comunicazione
+serverList -> lista di server cittadini con relative antenne per la comunicazione
+wrapper -> classe per la gestione delle comunicazioni tra agenti
+
+
+Modulo controller
+outputDirectory -> cartello dei risultati
+
+Modulo perception
+camerafile -> file contentente le posizioni delle telecamete per la visione del traffico
+wrapper -> classe utilizzata per fornire la posizione degli agenti alle telecamere
+
+Modulo plans
+inputPlansFile -> file contenente la popolazione
+
+--------------------------------------------------------------------------------------------
+
+CREAZIONE POPOLAZIONE
+
+Attualmente è disponibile la classe org.matsim.contrib.smartcity.scenariocreation.RandomPlansCreation
+per la creazione casuale della popolazione:
+
+java org.matsim.contrib.smartcity.scenariocreation.RandomPlansCreation nAgenti config.xml outputFile
+
+dove nAgenti è numero di agenti che si desidera creare, config.xml è lo scenario sul quale si vuole
+creare la popolazione, outputFile è il file in cui scrivere la popolazione
+
+Il file creato dovrà poi essere specificato nel file config.xml per l'esecuzione
+
+-------------------------------------------------------------------------------------------------
+
+SIMULAZIONE
+
+Dopo avere creato lo scenario e la popolazione è possibile avviare la simulazione.
+Utilizzando la classe org.matsim.contrib.smartcity.RunSmartcity verrà simulato lo scenario e i risultati
+salvati nella cartella specificata in config.xml
+
+java org.matsim.contrib.smartcity.RunSmartcity config.xml
+
+Dal punto di vista grafico è possibile visualizzare in diretta la simulazione specificando il modulo "otfvis"
+nel file di configurazione.
+
+Al termine della simulazione è possibile utilizzare i dati presenti nella cartella dei risultati per visualizzare
+la simuzione con altri tool come Via
+
+
+

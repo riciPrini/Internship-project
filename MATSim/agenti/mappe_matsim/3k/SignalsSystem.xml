@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signalSystems xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/signalSystems_v2.0.xsd" xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <signalSystem id="1352947087">
+        <signals>
+            <signal linkIdRef="3665" id="3665"/>
+            <signal linkIdRef="4242" id="4242"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="1352947102">
+        <signals>
+            <signal linkIdRef="3550" id="3550"/>
+            <signal linkIdRef="5162" id="5162"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="1942501475">
+        <signals>
+            <signal linkIdRef="3248" id="3248"/>
+            <signal linkIdRef="3251" id="3251"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2023217187">
+        <signals>
+            <signal linkIdRef="1867" id="1867"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2035506644">
+        <signals>
+            <signal linkIdRef="88" id="88"/>
+            <signal linkIdRef="91" id="91"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2035506651">
+        <signals>
+            <signal linkIdRef="2733" id="2733"/>
+            <signal linkIdRef="2736" id="2736"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2035506656">
+        <signals>
+            <signal linkIdRef="2737" id="2737"/>
+            <signal linkIdRef="2740" id="2740"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2035506657">
+        <signals>
+            <signal linkIdRef="84" id="84"/>
+            <signal linkIdRef="87" id="87"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2041913866">
+        <signals>
+            <signal linkIdRef="301" id="301"/>
+            <signal linkIdRef="304" id="304"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2041913867">
+        <signals>
+            <signal linkIdRef="2466" id="2466"/>
+            <signal linkIdRef="2469" id="2469"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2041913869">
+        <signals>
+            <signal linkIdRef="394" id="394"/>
+            <signal linkIdRef="397" id="397"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="2041913872">
+        <signals>
+            <signal linkIdRef="1047" id="1047"/>
+            <signal linkIdRef="1050" id="1050"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="250854474">
+        <signals>
+            <signal linkIdRef="2111" id="2111"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="255396514">
+        <signals>
+            <signal linkIdRef="1012" id="1012"/>
+            <signal linkIdRef="1023" id="1023"/>
+            <signal linkIdRef="1317" id="1317"/>
+            <signal linkIdRef="3387" id="3387"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="386880458">
+        <signals>
+            <signal linkIdRef="234" id="234"/>
+            <signal linkIdRef="237" id="237"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="5863108244">
+        <signals>
+            <signal linkIdRef="2184" id="2184"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="5863108245">
+        <signals>
+            <signal linkIdRef="2271" id="2271"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="5863331281">
+        <signals>
+            <signal linkIdRef="1349" id="1349"/>
+            <signal linkIdRef="1352" id="1352"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="5863331283">
+        <signals>
+            <signal linkIdRef="398" id="398"/>
+            <signal linkIdRef="401" id="401"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="5866463241">
+        <signals>
+            <signal linkIdRef="3006" id="3006"/>
+            <signal linkIdRef="3009" id="3009"/>
+        </signals>
+    </signalSystem>
+</signalSystems>

@@ -1,0 +1,13 @@
+org.matsim.contrib.smartcity
+org.matsim.contrib.smartcity.accident
+org.matsim.contrib.smartcity.actuation.semaphore
+org.matsim.contrib.smartcity.agent
+org.matsim.contrib.smartcity.agent.parking
+org.matsim.contrib.smartcity.comunication
+org.matsim.contrib.smartcity.comunication.wrapper
+org.matsim.contrib.smartcity.perception
+org.matsim.contrib.smartcity.perception.camera
+org.matsim.contrib.smartcity.perception.wrapper
+org.matsim.contrib.smartcity.restriction
+org.matsim.contrib.smartcity.scenariocreation
+org.matsim.core.mobsim.qsim.qnetsimengine

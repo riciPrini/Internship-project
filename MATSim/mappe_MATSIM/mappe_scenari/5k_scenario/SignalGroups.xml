@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signalGroups xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/signalGroups_v2.0.xsd" xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <signalSystem refId="1942501475">
+        <signalGroup id="894">
+            <signal refId="894"/>
+        </signalGroup>
+        <signalGroup id="897">
+            <signal refId="897"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506644">
+        <signalGroup id="184">
+            <signal refId="184"/>
+        </signalGroup>
+        <signalGroup id="187">
+            <signal refId="187"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506651">
+        <signalGroup id="4892">
+            <signal refId="4892"/>
+        </signalGroup>
+        <signalGroup id="4895">
+            <signal refId="4895"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506656">
+        <signalGroup id="4896">
+            <signal refId="4896"/>
+        </signalGroup>
+        <signalGroup id="4899">
+            <signal refId="4899"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506657">
+        <signalGroup id="180">
+            <signal refId="180"/>
+        </signalGroup>
+        <signalGroup id="183">
+            <signal refId="183"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506698">
+        <signalGroup id="3509">
+            <signal refId="3509"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506702">
+        <signalGroup id="3640">
+            <signal refId="3640"/>
+        </signalGroup>
+        <signalGroup id="3643">
+            <signal refId="3643"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2035506717">
+        <signalGroup id="3664">
+            <signal refId="3664"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2041913866">
+        <signalGroup id="529">
+            <signal refId="529"/>
+        </signalGroup>
+        <signalGroup id="532">
+            <signal refId="532"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2041913867">
+        <signalGroup id="4466">
+            <signal refId="4466"/>
+        </signalGroup>
+        <signalGroup id="4469">
+            <signal refId="4469"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2041913869">
+        <signalGroup id="757">
+            <signal refId="757"/>
+        </signalGroup>
+        <signalGroup id="760">
+            <signal refId="760"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="2041913872">
+        <signalGroup id="1780">
+            <signal refId="1780"/>
+        </signalGroup>
+        <signalGroup id="1783">
+            <signal refId="1783"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="255396514">
+        <signalGroup id="1151">
+            <signal refId="1151"/>
+        </signalGroup>
+        <signalGroup id="1585">
+            <signal refId="1585"/>
+        </signalGroup>
+        <signalGroup id="1610">
+            <signal refId="1610"/>
+        </signalGroup>
+        <signalGroup id="2358">
+            <signal refId="2358"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="386880458">
+        <signalGroup id="439">
+            <signal refId="439"/>
+        </signalGroup>
+        <signalGroup id="442">
+            <signal refId="442"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="5863331281">
+        <signalGroup id="2478">
+            <signal refId="2478"/>
+        </signalGroup>
+        <signalGroup id="2481">
+            <signal refId="2481"/>
+        </signalGroup>
+    </signalSystem>
+    <signalSystem refId="5863331283">
+        <signalGroup id="761">
+            <signal refId="761"/>
+        </signalGroup>
+        <signalGroup id="764">
+            <signal refId="764"/>
+        </signalGroup>
+    </signalSystem>
+</signalGroups>

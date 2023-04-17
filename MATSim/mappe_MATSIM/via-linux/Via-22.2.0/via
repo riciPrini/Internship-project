@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+SCRIPT=`readlink -f "${BASH_SOURCE[0]}"`
+if [ "$SCRIPT" = "" ]; then
+  # seems to be running on BSD or Darwin, where readlink -f is not supported
+	SCRIPT=$0
+fi
+BASEDIR=`dirname "$SCRIPT"`
+
+JAVA=$BASEDIR/jre11/bin/java
+
+JOPTS="-Xmx3500m -DsuppressSwingDropSupport=true -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2"
+
+"$JAVA" $JOPTS -DAppDirectory="$BASEDIR" -cp "$BASEDIR"/via-app-22.2.0.jar com.simunto.via.Via $*

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signalSystems xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/signalSystems_v2.0.xsd" xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <signalSystem id="1942501475">
+        <signals>
+            <signal linkIdRef="527" id="527"/>
+            <signal linkIdRef="530" id="530"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="386880458">
+        <signals>
+            <signal linkIdRef="202" id="202"/>
+            <signal linkIdRef="205" id="205"/>
+        </signals>
+    </signalSystem>
+    <signalSystem id="5863331283">
+        <signals>
+            <signal linkIdRef="352" id="352"/>
+            <signal linkIdRef="355" id="355"/>
+        </signals>
+    </signalSystem>
+</signalSystems>

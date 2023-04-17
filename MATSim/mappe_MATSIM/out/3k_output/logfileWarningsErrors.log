@@ -1,0 +1,14 @@
+2023-02-20 14:09:57,905  WARN XY2LinksForFacilities:50 There is no link for at least a facility. Assigning links for such facilities from coords.
+2023-02-20 14:09:57,905  WARN XY2LinksForFacilities:51  This message given only once.
+2023-02-20 14:10:15,189  WARN QueueWithBuffer:378 Link 1 too small: enlarge storage capacity from: 19.268804382717 Vehicles to: 106.9306048337512 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,191  WARN QueueWithBuffer:378 Link 100 too small: enlarge storage capacity from: 6.258651205061394 Vehicles to: 37.60388631035178 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,191  WARN QueueWithBuffer:378 Link 1000 too small: enlarge storage capacity from: 3.8338255241766475 Vehicles to: 21.165434135752818 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,191  WARN QueueWithBuffer:378 Link 1001 too small: enlarge storage capacity from: 6.664498771763886 Vehicles to: 63.958383185532966 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,191  WARN QueueWithBuffer:378 Link 1002 too small: enlarge storage capacity from: 6.664498771763886 Vehicles to: 63.958383185532966 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,191  WARN QueueWithBuffer:378 Link 1003 too small: enlarge storage capacity from: 5.465028976287897 Vehicles to: 43.00782006479953 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,192  WARN QueueWithBuffer:378 Link 1004 too small: enlarge storage capacity from: 5.465028976287897 Vehicles to: 43.00782006479953 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,192  WARN QueueWithBuffer:378 Link 1005 too small: enlarge storage capacity from: 15.838257923896146 Vehicles to: 120.40819875065233 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,192  WARN QueueWithBuffer:378 Link 1006 too small: enlarge storage capacity from: 15.838257923896146 Vehicles to: 120.40819875065233 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,192  WARN QueueWithBuffer:378 Link 1007 too small: enlarge storage capacity from: 7.438562536536056 Vehicles to: 26.5594620527797 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,193  WARN QueueWithBuffer:378 Link 1008 too small: enlarge storage capacity from: 7.438562536536056 Vehicles to: 26.5594620527797 Vehicles.  This is not fatal, but modifies the traffic flow dynamics.
+2023-02-20 14:10:15,193  WARN QueueWithBuffer:381 Additional warnings of this type are suppressed.

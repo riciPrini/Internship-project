@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<signalControl xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/signalControl_v2.0.xsd" xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <signalSystem refId="1942501475">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+    <signalSystem refId="2035506651">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+    <signalSystem refId="2035506656">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+    <signalSystem refId="255396514">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+    <signalSystem refId="386880458">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+    <signalSystem refId="5863331281">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+    <signalSystem refId="5863331283">
+        <signalSystemController>
+            <controllerIdentifier>org.matsim.contrib.smartcity.actuation.semaphore.SmartSemaphoreController</controllerIdentifier>
+        </signalSystemController>
+    </signalSystem>
+</signalControl>
