@@ -1,2 +1,2 @@
 # tirocinio
-Use [MyTools](Sumo/MyTools/) to convert MATSim plans to SUMO route. 
+Use [MyTools](Sumo/Mytools/) to convert MATSim files to SUMO files. 
