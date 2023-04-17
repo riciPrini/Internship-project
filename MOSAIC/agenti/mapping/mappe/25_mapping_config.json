@@ -1,0 +1,506 @@
+{
+  "prototypes": [
+    {
+      "name": "Smart_Agent1",
+      "length": "4.0 m",
+      "minGap": "2.5 m",
+      "maxSpeed": "60.0 m/s",
+      "vehicleClass": "Car",
+      "accel": 2.6,
+      "decel": 4.5,
+      "sigma": 0.5,
+      "tau": 1.0,
+      "speedFactor": 1.0,
+      "deviations": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "minGap": 0.0,
+        "maxSpeed": 0.0,
+        "speedFactor": 0.1,
+        "accel": 0.0,
+        "decel": 0.0,
+        "tau": 0.0
+      }
+    },
+    {
+      "name": "Smart_Agent2",
+      "length": "4.0 m",
+      "minGap": "2.5 m",
+      "maxSpeed": "60.0 m/s",
+      "vehicleClass": "Car",
+      "accel": 2.6,
+      "decel": 4.5,
+      "sigma": 0.5,
+      "tau": 1.0,
+      "speedFactor": 1.0,
+      "deviations": {
+        "length": 0.0,
+        "width": 0.0,
+        "height": 0.0,
+        "minGap": 0.0,
+        "maxSpeed": 0.0,
+        "speedFactor": 0.1,
+        "accel": 0.0,
+        "decel": 0.0,
+        "tau": 0.0
+      }
+    }
+  ],
+  "tmcs": [
+    {
+      "name": "TMC",
+      "group": "servers",
+      "applications": [
+        "MyTMCApp"
+      ],
+      "inductionLoops": [],
+      "laneAreaDetectors": [
+        "e2_100",
+        "e2_101",
+        "e2_102",
+        "e2_103",
+        "e2_104",
+        "e2_105",
+        "e2_106",
+        "e2_107",
+        "e2_108",
+        "e2_109",
+        "e2_110",
+        "e2_111",
+        "e2_112",
+        "e2_113",
+        "e2_114",
+        "e2_115",
+        "e2_116",
+        "e2_117",
+        "e2_118",
+        "e2_119",
+        "e2_120",
+        "e2_121",
+        "e2_122",
+        "e2_123",
+        "e2_124",
+        "e2_125",
+        "e2_126",
+        "e2_127",
+        "e2_128",
+        "e2_129",
+        "e2_130",
+        "e2_131",
+        "e2_132",
+        "e2_133",
+        "e2_134",
+        "e2_135",
+        "e2_136",
+        "e2_137",
+        "e2_138",
+        "e2_139",
+        "e2_140",
+        "e2_141",
+        "e2_142",
+        "e2_143",
+        "e2_144",
+        "e2_145",
+        "e2_146",
+        "e2_147",
+        "e2_148",
+        "e2_149",
+        "e2_150",
+        "e2_151",
+        "e2_152",
+        "e2_153",
+        "e2_154",
+        "e2_155",
+        "e2_156",
+        "e2_157",
+        "e2_158",
+        "e2_159",
+        "e2_160",
+        "e2_161",
+        "e2_162",
+        "e2_163",
+        "e2_164",
+        "e2_165",
+        "e2_166",
+        "e2_167",
+        "e2_168",
+        "e2_169",
+        "e2_170",
+        "e2_171",
+        "e2_172",
+        "e2_173",
+        "e2_174",
+        "e2_175",
+        "e2_176",
+        "e2_177",
+        "e2_178",
+        "e2_179",
+        "e2_180",
+        "e2_181",
+        "e2_182",
+        "e2_183",
+        "e2_184",
+        "e2_185",
+        "e2_186",
+        "e2_187",
+        "e2_188",
+        "e2_189",
+        "e2_190",
+        "e2_191",
+        "e2_192",
+        "e2_193",
+        "e2_194",
+        "e2_195",
+        "e2_196",
+        "e2_197",
+        "e2_198",
+        "e2_199",
+        "e2_200",
+        "e2_201",
+        "e2_202",
+        "e2_203",
+        "e2_204",
+        "e2_205",
+        "e2_206",
+        "e2_207",
+        "e2_208",
+        "e2_209",
+        "e2_210",
+        "e2_211",
+        "e2_212",
+        "e2_213",
+        "e2_214",
+        "e2_215",
+        "e2_216",
+        "e2_217",
+        "e2_218",
+        "e2_219",
+        "e2_220",
+        "e2_221",
+        "e2_222",
+        "e2_223",
+        "e2_224",
+        "e2_225",
+        "e2_226",
+        "e2_227",
+        "e2_228",
+        "e2_229",
+        "e2_230",
+        "e2_231",
+        "e2_232",
+        "e2_233",
+        "e2_234",
+        "e2_235",
+        "e2_236",
+        "e2_237",
+        "e2_238",
+        "e2_239",
+        "e2_240",
+        "e2_241",
+        "e2_242",
+        "e2_243",
+        "e2_244",
+        "e2_245",
+        "e2_246",
+        "e2_247",
+        "e2_248",
+        "e2_249",
+        "e2_250",
+        "e2_251",
+        "e2_252",
+        "e2_253",
+        "e2_254",
+        "e2_255",
+        "e2_256",
+        "e2_257",
+        "e2_258",
+        "e2_259",
+        "e2_260",
+        "e2_261",
+        "e2_262",
+        "e2_263",
+        "e2_264",
+        "e2_265",
+        "e2_266",
+        "e2_267",
+        "e2_268",
+        "e2_269",
+        "e2_270",
+        "e2_271",
+        "e2_272",
+        "e2_273",
+        "e2_274",
+        "e2_275",
+        "e2_276",
+        "e2_277",
+        "e2_278",
+        "e2_279",
+        "e2_280",
+        "e2_281",
+        "e2_282",
+        "e2_283",
+        "e2_284",
+        "e2_285",
+        "e2_286",
+        "e2_287",
+        "e2_288",
+        "e2_289",
+        "e2_290",
+        "e2_291",
+        "e2_292",
+        "e2_293",
+        "e2_294",
+        "e2_295",
+        "e2_296",
+        "e2_297",
+        "e2_298",
+        "e2_299",
+        "e2_400",
+        "e2_401",
+        "e2_402",
+        "e2_403",
+        "e2_404",
+        "e2_405",
+        "e2_406",
+        "e2_407",
+        "e2_408",
+        "e2_409",
+        "e2_410",
+        "e2_411",
+        "e2_412",
+        "e2_413",
+        "e2_414",
+        "e2_415",
+        "e2_416",
+        "e2_417",
+        "e2_418",
+        "e2_419",
+        "e2_420",
+        "e2_421",
+        "e2_422",
+        "e2_423",
+        "e2_424",
+        "e2_425",
+        "e2_426",
+        "e2_427",
+        "e2_428",
+        "e2_429",
+        "e2_430",
+        "e2_431",
+        "e2_432",
+        "e2_433",
+        "e2_434",
+        "e2_435",
+        "e2_436",
+        "e2_437",
+        "e2_438",
+        "e2_439"
+      ]
+    }
+  ],
+  "servers": [
+    {
+      "name": "TestServer",
+      "group": "servers",
+      "applications": [
+        "ServerApp"
+      ]
+    }
+  ],
+  "rsus": [
+    {
+      "name": "RSU",
+      "group": "servers",
+      "position": {
+        "latitude": 44.656757,
+        "longitude": 10.942425
+      },
+      "applications": [
+        "RSUApp"
+      ]
+    }
+  ],
+  "vehicles": [
+    {
+      "startingTime": 15000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_0"
+    },
+    {
+      "startingTime": 20000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_1"
+    },
+    {
+      "startingTime": 30000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_2"
+    },
+    {
+      "startingTime": 40000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_3"
+    },
+    {
+      "startingTime": 50000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_4"
+    },
+    {
+      "startingTime": 60000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_5"
+    },
+    {
+      "startingTime": 70000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_6"
+    },
+    {
+      "startingTime": 75000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_7"
+    },
+    {
+      "startingTime": 45000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_8"
+    },
+    {
+      "startingTime": 65000.0,
+      "targetFlow": 5000,
+      "maxNumberVehicles": 125,
+      "types": [
+        {
+          "name": "Smart_Agent1",
+          "applications": [
+            "VehicleApp"
+          ],
+          "weight": 1.0
+        }
+      ],
+      "deterministic": true,
+      "departConnectionIndex": 0,
+      "pos": 0,
+      "route": "r_9"
+    }
+  ]
+}

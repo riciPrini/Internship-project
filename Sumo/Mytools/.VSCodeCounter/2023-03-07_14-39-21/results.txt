@@ -1,0 +1,32 @@
+Date : 2023-03-07 14:39:21
+Directory : /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools
+Total : 7 files,  313 codes, 38 comments, 311 blanks, all 662 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Python   |          6 |        309 |         38 |        310 |        657 |
+| Markdown |          1 |          4 |          0 |          1 |          5 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |          7 |        313 |         38 |        311 |        662 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                   | language | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/PlansToRoute_departConverted.py | Python   |        133 |         28 |         19 |        180 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/detectorFiller.py               | Python   |         32 |          3 |          4 |         39 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/detectorTocameras.py            | Python   |         27 |          6 |          6 |         39 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/readme.md                       | Markdown |          4 |          0 |          1 |          5 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/removeDetector.py               | Python   |         86 |          0 |        271 |        357 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/timeParser.py                   | Python   |         21 |          0 |          9 |         30 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Mytools/timeSorted.py                   | Python   |         10 |          1 |          1 |         12 |
+| Total                                                                                      |          |        313 |         38 |        311 |        662 |
++--------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

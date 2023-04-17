@@ -1,0 +1,40 @@
+{
+  "prototypes": [
+    {
+      "name": "Car"
+      
+      
+      
+    }
+  ],
+  "tmcs": [
+    {
+      "name": "TMC",
+      "group": "servers",
+      "applications": [ "MyTMCApp" ],
+      "inductionLoops": [], 
+      "laneAreaDetectors": ["e2_0"]
+    }
+  ],
+  "servers": [
+     {
+         "name": "TestServer",
+         "group": "servers",
+         "applications": [ "ServerApp" ]
+     }
+ ],
+  
+ "rsus": [
+  {
+    "name": "RSU",
+    "group": "servers",
+    "position": {
+      "latitude": 44.662923,
+      "longitude": 10.936743
+    },
+    "applications": [
+      "RSUApp"
+    ]
+  }
+]
+}

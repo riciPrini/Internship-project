@@ -1,0 +1,5 @@
+{
+    "sumoConfigurationFile": "MASA.sumocfg",
+    "updateInterval": 100,
+    "additionalSumoParameters": "--tripinfo-output"
+}

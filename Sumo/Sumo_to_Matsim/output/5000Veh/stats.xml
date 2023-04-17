@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-01-28 14:06:27 by Eclipse SUMO sumo Version 1.15.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="MASA.net.xml"/>
+        <route-files value="plans/plans5000.rou.xml"/>
+        <additional-files value="MASA.add.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="output/5000Veh/summary.xml"/>
+        <tripinfo-output value="output/5000Veh/tripinfos.xml"/>
+        <vehroute-output value="output/5000Veh/vehroute.xml"/>
+        <statistic-output value="output/5000Veh/stats.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="86400"/>
+        <step-length value="1"/>
+    </time>
+
+</configuration>
+-->
+
+<statistics xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/statistic_file.xsd">
+    <vehicles loaded="5000" inserted="5000" running="0" waiting="0"/>
+    <teleports total="2" jam="0" yield="2" wrongLane="0"/>
+    <safety collisions="0" emergencyStops="0"/>
+    <persons loaded="0" running="0" jammed="0"/>
+    <vehicleTripStatistics count="5000" routeLength="941.67" speed="5.27" duration="192.52" waitingTime="10.56" timeLoss="39.20" departDelay="0.17" departDelayWaiting="-1.00" totalTravelTime="962590.00" totalDepartDelay="840.00"/>
+    <pedestrianStatistics number="0" routeLength="0.00" duration="0.00" timeLoss="0.00"/>
+    <rideStatistics number="0"/>
+    <transportStatistics number="0"/>
+</statistics>

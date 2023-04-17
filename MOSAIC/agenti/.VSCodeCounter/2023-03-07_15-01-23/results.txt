@@ -1,0 +1,101 @@
+Date : 2023-03-07 15:01:23
+Directory : /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti
+Total : 52 files,  69502 codes, 267 comments, 291 blanks, all 70060 lines
+
+Languages
++-----------------+------------+------------+------------+------------+------------+
+| language        | files      | code       | comment    | blank      | total      |
++-----------------+------------+------------+------------+------------+------------+
+| XML             |         14 |     63,591 |        107 |         50 |     63,748 |
+| JSON            |         13 |      3,399 |          0 |         13 |      3,412 |
+| Log             |          6 |      1,727 |          0 |         12 |      1,739 |
+| Java            |         15 |        712 |         91 |        174 |        977 |
+| Python          |          3 |         70 |         67 |         41 |        178 |
+| Java Properties |          1 |          3 |          2 |          1 |          6 |
++-----------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                     |         52 |     69,502 |        267 |        291 |     70,060 |
+| . (Files)                                                                                                                             |          7 |      1,761 |          0 |         13 |      1,774 |
+| Traffic                                                                                                                               |         17 |        742 |         93 |        182 |      1,017 |
+| Traffic (Files)                                                                                                                       |          1 |         27 |          0 |          7 |         34 |
+| Traffic/src                                                                                                                           |          7 |        452 |         91 |        173 |        716 |
+| Traffic/src/main                                                                                                                      |          7 |        452 |         91 |        173 |        716 |
+| Traffic/src/main/java                                                                                                                 |          7 |        452 |         91 |        173 |        716 |
+| Traffic/target                                                                                                                        |          9 |        263 |          2 |          2 |        267 |
+| Traffic/target/classes                                                                                                                |          8 |        260 |          0 |          1 |        261 |
+| Traffic/target/maven-archiver                                                                                                         |          1 |          3 |          2 |          1 |          6 |
+| application                                                                                                                           |          1 |         12 |          0 |          0 |         12 |
+| application/db                                                                                                                        |          1 |         12 |          0 |          0 |         12 |
+| cell                                                                                                                                  |          3 |         78 |          0 |          4 |         82 |
+| environment                                                                                                                           |          1 |          3 |          0 |          0 |          3 |
+| mapping                                                                                                                               |         10 |      3,342 |         67 |         49 |      3,458 |
+| mapping (Files)                                                                                                                       |          5 |        612 |         67 |         46 |        725 |
+| mapping/mappe                                                                                                                         |          5 |      2,730 |          0 |          3 |      2,733 |
+| output                                                                                                                                |          1 |         15 |         35 |          1 |         51 |
+| sumo                                                                                                                                  |         12 |     63,549 |         72 |         42 |     63,663 |
+| sumo (Files)                                                                                                                          |          7 |     48,979 |         62 |         33 |     49,074 |
+| sumo/plans                                                                                                                            |          5 |     14,570 |         10 |          9 |     14,589 |
++---------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| filename                                                                                                                              | language        | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/2023-03-02_09-20-16-scenario-convert.log           | Log             |         14 |          0 |          1 |         15 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/2023-03-02_09-20-17-scenario-convert.log           | Log             |        626 |          0 |          3 |        629 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/2023-03-02_10-17-16-scenario-convert.log           | Log             |         14 |          0 |          1 |         15 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/2023-03-02_10-17-17-scenario-convert.log           | Log             |        699 |          0 |          3 |        702 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/2023-03-02_10-28-22-scenario-convert.log           | Log             |         14 |          0 |          1 |         15 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/2023-03-02_10-28-24-scenario-convert.log           | Log             |        360 |          0 |          3 |        363 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/pom.xml                                    | XML             |         27 |          0 |          7 |         34 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/EmissionMessage.java         | Java            |         33 |          0 |          7 |         40 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/HelloWorldApp.java           | Java            |         16 |          1 |          7 |         24 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/MyTMCApp.java                | Java            |        128 |         46 |         49 |        223 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/RSUApp.java                  | Java            |         45 |          7 |         17 |         69 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/ServerApp.java               | Java            |         51 |          1 |         20 |         72 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/TrafficMessage.java          | Java            |         25 |          1 |          6 |         32 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/src/main/java/VehicleApp.java              | Java            |        154 |         35 |         67 |        256 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/EmissionMessage.class       | Java            |         13 |          0 |          0 |         13 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/HelloWorldApp.class         | Java            |         17 |          0 |          0 |         17 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/MyTMCApp$LaneResponse.class | Java            |          9 |          0 |          0 |          9 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/MyTMCApp.class              | Java            |         71 |          0 |          1 |         72 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/RSUApp.class                | Java            |         40 |          0 |          0 |         40 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/ServerApp.class             | Java            |         31 |          0 |          0 |         31 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/TrafficMessage.class        | Java            |         10 |          0 |          0 |         10 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/classes/VehicleApp.class            | Java            |         69 |          0 |          0 |         69 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/Traffic/target/maven-archiver/pom.properties       | Java Properties |          3 |          2 |          1 |          6 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/application/db/mapping_config.json                 | JSON            |         12 |          0 |          0 |         12 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/cell/cell_config.json                              | JSON            |          4 |          0 |          0 |          4 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/cell/network.json                                  | JSON            |         71 |          0 |          4 |         75 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/cell/regions.json                                  | JSON            |          3 |          0 |          0 |          3 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/environment/environment_config.json                | JSON            |          3 |          0 |          0 |          3 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/create_map.py                              | Python          |         20 |         26 |         17 |         63 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/create_map_2.py                            | Python          |         27 |         28 |         18 |         73 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/create_route.py                            | Python          |         23 |         13 |          6 |         42 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mappe/10_mapping_config.json               | JSON            |        506 |          0 |          1 |        507 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mappe/25_mapping_config.json               | JSON            |        506 |          0 |          0 |        506 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mappe/40_mapping_config.json               | JSON            |        506 |          0 |          1 |        507 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mappe/60_mapping_config.json               | JSON            |        506 |          0 |          0 |        506 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mappe/75_mapping_config.json               | JSON            |        706 |          0 |          1 |        707 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mapping_config copy.json                   | JSON            |         36 |          0 |          4 |         40 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/mapping/mapping_config.json                        | JSON            |        506 |          0 |          1 |        507 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/output/output_config.xml                           | XML             |         15 |         35 |          1 |         51 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/scenario_config.json                               | JSON            |         34 |          0 |          1 |         35 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/MASA.add.xml                                  | XML             |        443 |          0 |          3 |        446 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/MASA.net.xml                                  | XML             |     33,332 |         13 |         12 |     33,357 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/e2_5000.xml                                   | XML             |      2,175 |         21 |          3 |      2,199 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/plans.rou.xml                                 | XML             |      5,006 |          0 |          2 |      5,008 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/plans/10_plans.rou.xml                        | XML             |      4,514 |          0 |          1 |      4,515 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/plans/25_plans.rou.xml                        | XML             |      3,764 |          0 |          3 |      3,767 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/plans/40_plans.rou.xml                        | XML             |      3,014 |          0 |          2 |      3,016 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/plans/60_plans.rou.xml                        | XML             |      2,014 |          0 |          1 |      2,015 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/plans/75_plans.rou.xml                        | XML             |      1,264 |         10 |          2 |      1,276 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/rot.rou.xml                                   | XML             |         23 |          0 |          7 |         30 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/route.rou.alt.xml                             | XML             |      4,999 |         14 |          3 |      5,016 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/eclipse-mosaic-22.1/scenarios/agenti/sumo/route.rou.xml                                 | XML             |      3,001 |         14 |          3 |      3,018 |
+| Total                                                                                                                                 |                 |     69,502 |        267 |        291 |     70,060 |
++---------------------------------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+

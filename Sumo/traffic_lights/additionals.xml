@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-19 10:41:10 by Eclipse SUMO netedit Version 1.14.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <e2Detector id="e2_0" lane="-E4_0" pos="37.85" length="10.00" period="300.00" file="e2_0.xml"/>
+    <e2Detector id="e2_1" lane="E0_0" pos="29.86" length="10.00" period="300.00" file="e2_1.xml"/>
+</additional>

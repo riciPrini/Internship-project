@@ -1,0 +1,68 @@
+Date : 2023-03-07 14:49:00
+Directory : /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo
+Total : 33 files,  607116 codes, 426 comments, 10164 blanks, all 617706 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| XML      |         32 |    607,073 |        397 |     10,137 |    617,607 |
+| Python   |          1 |         43 |         29 |         27 |         99 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                  | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                     |         33 |    607,116 |        426 |     10,164 |    617,706 |
+| . (Files)                                                                             |          1 |         43 |         29 |         27 |         99 |
+| 1k                                                                                    |          5 |     26,370 |         34 |         21 |     26,425 |
+| 2k                                                                                    |          4 |     42,685 |         34 |         19 |     42,738 |
+| 3k                                                                                    |          4 |     55,861 |         30 |         19 |     55,910 |
+| 4k                                                                                    |          3 |     67,031 |         13 |         16 |     67,060 |
+| 5k                                                                                    |          4 |     95,552 |         37 |         19 |     95,608 |
+| 6k                                                                                    |          4 |    114,223 |         41 |         19 |    114,283 |
+| output                                                                                |          8 |    205,351 |        208 |     10,024 |    215,583 |
+| output/5k                                                                             |          4 |    106,421 |         96 |      5,012 |    111,529 |
+| output/6k                                                                             |          4 |     98,930 |        112 |      5,012 |    104,054 |
++---------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                              | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/1k/MASA.add.xml         | XML      |      1,201 |          0 |          3 |      1,204 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/1k/MASA.edg.xml         | XML      |        239 |          0 |          1 |        240 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/1k/MASA.net.xml         | XML      |     18,725 |         13 |         12 |     18,750 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/1k/e2_5000.xml          | XML      |      1,201 |         21 |          3 |      1,225 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/1k/plans.rou.xml        | XML      |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/2k/MASA.add.xml         | XML      |      2,174 |          0 |          2 |      2,176 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/2k/MASA.net.xml         | XML      |     33,332 |         13 |         12 |     33,357 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/2k/e2_5000.xml          | XML      |      2,175 |         21 |          3 |      2,199 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/2k/plans.rou.xml        | XML      |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/3k/MASA.add.xml         | XML      |      3,263 |          0 |          2 |      3,265 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/3k/MASA.net.xml         | XML      |     47,591 |         13 |         12 |     47,616 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/3k/e2_5000.xml          | XML      |          3 |         17 |          3 |         23 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/3k/plans.rou.xml        | XML      |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/4k/MASA.add.xml         | XML      |      3,845 |          0 |          2 |      3,847 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/4k/MASA.net.xml         | XML      |     58,182 |         13 |         12 |     58,207 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/4k/plans.rou.xml        | XML      |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/5k/MASA.add.xml         | XML      |      5,099 |          0 |          2 |      5,101 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/5k/MASA.net.xml         | XML      |     80,349 |         13 |         12 |     80,374 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/5k/e2_5000.xml          | XML      |      5,100 |         24 |          3 |      5,127 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/5k/plans.rou.xml        | XML      |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/6k/MASA.add.xml         | XML      |      6,366 |          0 |          2 |      6,368 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/6k/MASA.net.xml         | XML      |     96,486 |         13 |         12 |     96,511 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/6k/e2_5000.xml          | XML      |      6,367 |         28 |          3 |      6,398 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/6k/plans.rou.xml        | XML      |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/5k/stats.xml     | XML      |         12 |         24 |          3 |         39 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/5k/summary.xml   | XML      |     86,403 |         24 |          3 |     86,430 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/5k/tripinfos.xml | XML      |      5,003 |         24 |          3 |      5,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/5k/vehroute.xml  | XML      |     15,003 |         24 |      5,003 |     20,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/6k/stats.xml     | XML      |         12 |         28 |          3 |         43 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/6k/summary.xml   | XML      |     78,912 |         28 |          3 |     78,943 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/6k/tripinfos.xml | XML      |      5,003 |         28 |          3 |      5,034 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/output/6k/vehroute.xml  | XML      |     15,003 |         28 |      5,003 |     20,034 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/mappe_sumo/run.py                  | Python   |         43 |         29 |         27 |         99 |
+| Total                                                                                 |          |    607,116 |        426 |     10,164 |    617,706 |
++---------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

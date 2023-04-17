@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+	<input>
+		<net-file value="MASA.net.xml" />
+		<route-files value="plans.rou.xml" />
+		<additional-files value="MASA.add.xml" />
+	</input>
+    <output>
+        <tripinfo-output value="../output/5k/tripinfos.xml"/>
+        <summary-output value="../output/5k/summary.xml" />
+        <statistic-output value="../output/5k/stats.xml" />
+		<vehroute-output value="../output/5k/vehroute.xml"/>
+    </output>
+
+    
+    <time>
+        
+		<begin value="0"/>
+		<end value="86400"/>
+		<step-length value="1"/>
+    </time>
+
+
+</configuration>

@@ -1,0 +1,10 @@
+15:49:14.610 INFO  - 
+15:49:14.612 ERROR - 
+15:49:14.615 ERROR - Given net or route file file at 'osm.rou.xml' not found.
+java.lang.IllegalArgumentException: Given net or route file file at 'osm.rou.xml' not found.
+	at com.dcaiti.mosaic.tools.scenarioconvert.config.b.b(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.config.b.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.config.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.core.Starter.main(Unknown Source)
+15:49:14.615 ERROR - 
+15:49:14.615 ERROR - Please use the -h option to get usage help printed.

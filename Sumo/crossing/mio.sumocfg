@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-10-16 15:16:30 by Eclipse SUMO netconvert Version 1.14.1
+-->
+
+<configuration >
+
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="mio.rou.xml"/>
+        <additional-files value="additionals.xml"/>
+    </input>
+
+
+</configuration>

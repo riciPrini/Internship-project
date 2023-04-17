@@ -1,0 +1,12 @@
+{
+  "prototypes": [
+    {
+      "name": "car"
+    },
+    {
+      "name": "bicycle"
+    }
+  ],
+  "chargingStations": [],
+  "vehicles": []
+}

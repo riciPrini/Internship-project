@@ -1,0 +1,59 @@
+10:18:55.938 INFO  - initializing database
+10:18:55.949 INFO  - parsing net file
+10:18:55.961 ERROR - An unexpected error occurred.
+java.lang.NullPointerException: If import-zone is not given, import-lat and import-lon must be defined.
+	at org.apache.commons.lang3.Validate.notNull(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.b.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.b.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:276)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.b.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.core.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.core.Starter.main(Unknown Source)
+10:18:55.961 ERROR - Could not load network data from Net File.
+java.lang.IllegalStateException: Could not parse network file
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.b.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.core.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.core.Starter.main(Unknown Source)
+Caused by: java.lang.NullPointerException: If import-zone is not given, import-lat and import-lon must be defined.
+	at org.apache.commons.lang3.Validate.notNull(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.a.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.b.a(Unknown Source)
+	at com.dcaiti.mosaic.tools.scenarioconvert.importer.sumo.b.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(Unknown Source)
+	at org.apache.xerces.parsers.AbstractXMLDocumentParser.emptyElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanStartElement(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(Unknown Source)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.SAXParser.parse(SAXParser.java:276)
+	... 4 common frames omitted
+10:18:55.962 INFO  - no route file for import given, ignoring!
+10:18:56.170 INFO  - Saving 0 nodes...
+10:18:56.172 INFO  - Saving 0 ways...
+10:18:56.172 INFO  - Saving 0 connections...
+10:18:56.173 INFO  - Saving 0 restrictions...
+10:18:56.173 INFO  - Saving 0 routes...
+10:18:56.173 INFO  - Saving 0 roundabouts...
+10:18:56.173 INFO  - Saving 0 buildings...
+10:18:56.173 INFO  - Create Indices
+10:18:56.176 ERROR - error while trying to write database content: [SQLITE_ERROR] SQL error or missing database (no such table: main.BuildingCorner)
+10:18:56.176 INFO  - finished

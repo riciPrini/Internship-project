@@ -1,0 +1,76 @@
+Date : 2023-03-07 14:20:16
+Directory : /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim
+Total : 40 files,  487901 codes, 645 comments, 7943 blanks, all 496489 lines
+
+Languages
++--------------+------------+------------+------------+------------+------------+
+| language     | files      | code       | comment    | blank      | total      |
++--------------+------------+------------+------------+------------+------------+
+| XML          |         35 |    487,827 |        616 |      7,902 |    496,345 |
+| Python       |          3 |         62 |         29 |         34 |        125 |
+| Markdown     |          1 |          9 |          0 |          7 |         16 |
+| Shell Script |          1 |          3 |          0 |          0 |          3 |
++--------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                           | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                              |         40 |    487,901 |        645 |      7,943 |    496,489 |
+| . (Files)                                                                                      |         12 |     30,845 |         87 |         65 |     30,997 |
+| detectors                                                                                      |          3 |        813 |         66 |          9 |        888 |
+| output                                                                                         |         20 |    448,423 |        492 |      7,860 |    456,775 |
+| output/100Veh                                                                                  |          4 |     86,820 |         96 |        112 |     87,028 |
+| output/2000Veh                                                                                 |          4 |     94,420 |         96 |      2,012 |     96,528 |
+| output/200Veh                                                                                  |          4 |     72,343 |        108 |        212 |     72,663 |
+| output/5000Veh                                                                                 |          4 |    106,420 |         96 |      5,012 |    111,528 |
+| output/500Veh                                                                                  |          4 |     88,420 |         96 |        512 |     89,028 |
+| plans                                                                                          |          5 |      7,820 |          0 |          9 |      7,829 |
++------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| filename                                                                                       | language     | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/MASA.add.xml                 | XML          |          4 |          3 |          3 |         10 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/MASA.con.xml                 | XML          |        515 |          0 |          1 |        516 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/MASA.edg.xml                 | XML          |        239 |          0 |          1 |        240 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/MASA.net.xml                 | XML          |      9,594 |         31 |         13 |      9,638 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/MASA.nod.xml                 | XML          |        124 |          0 |          1 |        125 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/README.md                    | Markdown     |          9 |          0 |          7 |         16 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/detectors/e2_100.xml         | XML          |        291 |         17 |          3 |        311 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/detectors/e2_2000.xml        | XML          |        263 |         28 |          3 |        294 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/detectors/e2_5000.xml        | XML          |        259 |         21 |          3 |        283 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/e2_5000.xml                  | XML          |        291 |         24 |          3 |        318 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/graph_builder.py             | Python       |         12 |          0 |          4 |         16 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/img.sh                       | Shell Script |          3 |          0 |          0 |          3 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/100Veh/stats.xml      | XML          |         11 |         24 |          3 |         38 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/100Veh/summary.xml    | XML          |     86,403 |         24 |          3 |     86,430 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/100Veh/tripinfos.xml  | XML          |        103 |         24 |          3 |        130 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/100Veh/vehroute.xml   | XML          |        303 |         24 |        103 |        430 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/2000Veh/stats.xml     | XML          |         11 |         24 |          3 |         38 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/2000Veh/summary.xml   | XML          |     86,403 |         24 |          3 |     86,430 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/2000Veh/tripinfos.xml | XML          |      2,003 |         24 |          3 |      2,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/2000Veh/vehroute.xml  | XML          |      6,003 |         24 |      2,003 |      8,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/200Veh/stats.xml      | XML          |         11 |         27 |          3 |         41 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/200Veh/summary.xml    | XML          |     71,526 |         27 |          3 |     71,556 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/200Veh/tripinfos.xml  | XML          |        203 |         27 |          3 |        233 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/200Veh/vehroute.xml   | XML          |        603 |         27 |        203 |        833 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/5000Veh/stats.xml     | XML          |         11 |         24 |          3 |         38 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/5000Veh/summary.xml   | XML          |     86,403 |         24 |          3 |     86,430 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/5000Veh/tripinfos.xml | XML          |      5,003 |         24 |          3 |      5,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/5000Veh/vehroute.xml  | XML          |     15,003 |         24 |      5,003 |     20,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/500Veh/stats.xml      | XML          |         11 |         24 |          3 |         38 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/500Veh/summary.xml    | XML          |     86,403 |         24 |          3 |     86,430 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/500Veh/tripinfos.xml  | XML          |        503 |         24 |          3 |        530 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/output/500Veh/vehroute.xml   | XML          |      1,503 |         24 |        503 |      2,030 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/plans.rou.xml                | XML          |     20,004 |          0 |          2 |     20,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/plans/plans100.rou.xml       | XML          |        104 |          0 |          2 |        106 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/plans/plans200.rou.xml       | XML          |        204 |          0 |          2 |        206 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/plans/plans2000.rou.xml      | XML          |      2,004 |          0 |          1 |      2,005 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/plans/plans500.rou.xml       | XML          |        504 |          0 |          2 |        506 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/plans/plans5000.rou.xml      | XML          |      5,004 |          0 |          2 |      5,006 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/run.py                       | Python       |         41 |         29 |         29 |         99 |
+| /home/riccardo/Scrivania/UNIVERSITA/tirocinio/Sumo/Sumo_to_Matsim/timeParser.py                | Python       |          9 |          0 |          1 |         10 |
+| Total                                                                                          |              |    487,901 |        645 |      7,943 |    496,489 |
++------------------------------------------------------------------------------------------------+--------------+------------+------------+------------+------------+
